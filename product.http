@@ -11,7 +11,7 @@ Content-Type: application/json
 }
 
 ### UPDATE PRODUCT
-PUT http://localhost:3000/api/products/1
+PUT http://localhost:3000/api/products/2
 Content-Type: application/json
 
 {
@@ -21,4 +21,4 @@ Content-Type: application/json
 }
 
 ### DELETE PRODUCT
-DELETE http://localhost:3000/api/products/1
+DELETE http://localhost:3000/api/products/2

@@ -14,13 +14,12 @@ import (
 
 type Product struct {
 	gorm.Model
-	Name  string `gorm:"unique" json:"name"`
-	Code  string `gorm:"unique"  json:"code"`
-	Price uint   `json:"price"`
+	Name  string
+	Code  string
+	Price uint
 }
 
 func main() {
-	fmt.Println("JALAN")
 	newLogger := logger.New(
 		log.New(log.Writer(), "\r\n", log.LstdFlags), // io writer
 		logger.Config{
